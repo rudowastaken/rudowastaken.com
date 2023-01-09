@@ -1,0 +1,28 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="404" description="This page does not exist.">
+  <main
+    class="flex h-screen flex-col items-center justify-center overflow-hidden"
+  >
+    <div class="relative bg-accent p-32 text-white">
+      <h1 class="mb-8 text-5xl tracking-wide">This page does not exist.</h1>
+
+      <img
+        src="/logo.png"
+        class="absolute bottom-0 left-0 h-16 w-16"
+        alt="Rudolf Halas"
+      />
+
+      <p>
+        <a
+          href="/"
+          class="has-transition border-b border-white transition-colors duration-150 ease-in-out hover:border-black"
+        >
+          Go back home &#8599;
+        </a>
+      </p>
+    </div>
+  </main>
+</Layout>
